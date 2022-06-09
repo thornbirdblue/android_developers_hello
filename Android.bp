@@ -1,0 +1,11 @@
+cc_binary {
+	name: "HelloAndroid",
+	srcs : [
+		"src/*.cpp"
+	],
+	
+	cppflags: [
+		"-Wall",
+		"-Werror"
+	]
+}
